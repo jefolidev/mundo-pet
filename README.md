@@ -32,13 +32,31 @@ Uma aplicação que faz reservas de atendimentos e necessidades veterinárias, s
 
 - Criar agendamentos
 - Apagar agendamentos
-- Conexão com API
+- JSON-Server para simular uma REST API local com JSON
 - Busca por dias
 - Atende à maioria dos dispostivos
 
 ## 🚀 Como Rodar o Projeto
 
-- 🔗 Link - [Numbers](https://jefolidev.github.io/mundo-pet/)
+- Você precisa ter o **Node.js** e o **npm** instalados para rodar o json-server, que cria um servidor local para o arquivo JSON.
+
+1.  **Clonar o Repositório**
+
+        git clone https://github.com/jefolidev/mundo-pet.git
+
+2.  **Já no diretório do projeto, utilizando o terminal, baixe as dependências**
+
+        git install | yarn install | pnpm install
+
+3.  **Rode o servidor localmente**
+
+    - Execute o seguinte comando no terminal:
+
+           npm run server
+
+4.  **Você pode acessar o front atravès do link abaixo**
+
+- 🔗 Link - [Mundo Pet](https://jefolidev.github.io/mundo-pet/)
 
 ## 👥 Fale comigo!
 
