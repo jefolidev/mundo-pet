@@ -8,7 +8,7 @@ Uma aplicação que faz reservas de atendimentos e necessidades veterinárias, s
 - [UI](#-ui)
 - [Funcionalidades](#️-funcionalidades)
 - [Como Rodar o Projeto](#️-como-rodar-o-projeto)
-- [Agradecimentos](#️-agradecimentos)
+- [Agradecimentos](#️-fale-comigo)
 
 ## 🛠️ Tecnologias Utilizadas
 
