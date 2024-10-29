@@ -1,0 +1,5 @@
+.divisor {
+  width: 100%;
+  background-color: var(--border-divisor);
+  height: 0.6px;
+}

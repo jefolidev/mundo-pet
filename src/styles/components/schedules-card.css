@@ -1,0 +1,119 @@
+.schedules-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  max-width: 45rem;
+  width: auto;
+
+  .schedules-card {
+    background-color: var(--bg-tertiary);
+    border-radius: 0.675rem;
+    padding: 0.75rem 0.75rem 1.25rem 1.25rem;
+
+    @media (max-width: 425px) {
+    }
+
+    & header {
+      display: flex;
+      flex-direction: row;
+
+      border-bottom: 1px solid #2e2c30;
+
+      & .schedule-title {
+        display: flex;
+        gap: 0.75rem;
+
+        flex: 1;
+      }
+
+      & h2 {
+        margin-bottom: 0.75rem;
+      }
+
+      span {
+        font-weight: var(--font-bold);
+        color: var(--content-secondary);
+      }
+    }
+
+    &#morning .daytime-icon {
+      background: url(../../assets/icons/day.svg);
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+    &#afternoon .daytime-icon {
+      background: url(../../assets/icons/afternoon.svg);
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+    &#night .daytime-icon {
+      background: url(../../assets/icons/night.svg);
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
+    & .card-content {
+      & ul {
+        & li {
+          display: flex;
+
+          align-items: center;
+          margin-top: 0.75rem;
+          padding: 1rem 0.75rem;
+
+          @media (max-width: 425px) {
+            flex-direction: column;
+            align-items: start;
+            gap: 0.5rem;
+          }
+
+          & p,
+          span {
+            font-size: var(--text-sm);
+            @media (max-width: 425px) {
+              font-size: 0.875rem;
+            }
+          }
+
+          & p {
+            color: var(--content-secondary);
+          }
+
+          & .schedule-title {
+            display: flex;
+            gap: 1rem;
+            text-transform: capitalize;
+
+            & span {
+              font-weight: var(--font-bold);
+            }
+            & .schedule-name {
+              display: flex;
+              gap: 0.25rem;
+              width: 8rem;
+            }
+          }
+
+          & .schedule-description {
+            margin-left: auto;
+            text-align: start;
+            width: 14rem;
+            color: var(--content-secondary);
+
+            @media (max-width: 425px) {
+              margin-left: 0;
+            }
+          }
+          & #remove-item {
+            margin-left: auto;
+          }
+          & #remove-item:hover {
+            color: #ff5a5a;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
